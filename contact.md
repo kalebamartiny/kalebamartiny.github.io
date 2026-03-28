@@ -5,8 +5,8 @@ title: Contact
 
 # Contact
 
-- **Email:** yourname@university.edu
-- **LinkedIn:** https://www.linkedin.com/in/your-link
-- **GitHub:** https://github.com/your-username
+- **Email:** kalebamartiny@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/kalebmartiny
+- **GitHub:** https://github.com/kalebamartiny
 
 I am currently seeking aerospace engineering internship opportunities.
