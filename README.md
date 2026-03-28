@@ -3,7 +3,7 @@
 This repository hosts my internship-focused aerospace engineering portfolio website, including project summaries, coursework artifacts, and resume.
 
 ## Live Site
-https://your-username.github.io/
+https://kalebamartiny.github.io/
 
 ## Structure
 - `index.md` — Home
