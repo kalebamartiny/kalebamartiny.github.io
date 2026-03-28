@@ -35,3 +35,23 @@ Cross-checked with beam-theory estimates for deflection and root bending stress.
 ![FEA stress contour](../assets/images/projects/wing-spar-fea-vonmises.png)
 
 **Figure takeaway:** Stress concentration localized near root connection region.
+
+## 5) Engineering Decisions and Trade-offs
+Selected spar geometry balancing stiffness gain vs mass increase.
+
+## 6) Your Contribution
+- Built structural model and load cases
+- Performed hand-calculation verification
+- Recommended final spar concept
+
+## 7) Limitations and Future Work
+- Simplified boundary/loading conditions
+- Future work: include joint details, fatigue, and buckling checks
+
+## 8) Files and Reproducibility
+- [Technical Report (PDF)](../assets/docs/wing-spar-fea-report.pdf)
+- [Project Repository](https://github.com/your-username/wing-spar-fea-study)
+
+## 9) Key Takeaways
+- Verification against simple models builds confidence in FEA
+- Structural decisions require explicit mass-stiffness trade studies

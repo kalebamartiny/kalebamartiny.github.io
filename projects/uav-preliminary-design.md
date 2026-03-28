@@ -36,3 +36,23 @@ Checked performance estimates against hand calculations and reference UAV data.
 ![UAV concept figure](../assets/images/projects/uav-concept.png)
 
 **Figure takeaway:** Final concept met mission endurance with acceptable margin.
+
+## 5) Engineering Decisions and Trade-offs
+Compared high-AR wing (efficiency benefit) vs structural weight penalty; selected moderate AR for balanced performance and manufacturability.
+
+## 6) Your Contribution
+- Performed wing/power loading analyses
+- Built parametric sizing script
+- Prepared trade-study plots and design recommendation
+
+## 7) Limitations and Future Work
+- Limited by simplified drag buildup assumptions
+- Future work: higher-fidelity aerodynamic modeling and propulsion bench test
+
+## 8) Files and Reproducibility
+- [Technical Report (PDF)](../assets/docs/uav-preliminary-design-report.pdf)
+- [Project Repository](https://github.com/your-username/uav-preliminary-design)
+
+## 9) Key Takeaways
+- Requirement-driven design improves decision quality
+- Trade studies are essential for early-phase engineering
