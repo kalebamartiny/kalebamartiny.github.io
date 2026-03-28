@@ -35,23 +35,3 @@ Performed mesh sensitivity check and compared trend against published polar data
 ![Pressure coefficient plot](../assets/images/projects/airfoil-cfd-cp.png)
 
 **Figure takeaway:** Cp distribution supports observed lift trend and pre-stall behavior.
-
-## 5) Engineering Decisions and Trade-offs
-Balanced mesh density vs compute time; chose medium-fine mesh after convergence and trend stability checks.
-
-## 6) Your Contribution
-- Created mesh and solver setup
-- Ran simulation matrix
-- Post-processed data and generated plots in Python
-
-## 7) Limitations and Future Work
-- 2D assumption neglects 3D effects
-- Future work: transition model and unsteady simulation near stall
-
-## 8) Files and Reproducibility
-- [Technical Report (PDF)](../assets/docs/airfoil-cfd-analysis-report.pdf)
-- [Project Repository](https://github.com/your-username/airfoil-cfd-analysis)
-
-## 9) Key Takeaways
-- CFD setup choices strongly affect result quality
-- Validation is required before interpreting design implications
