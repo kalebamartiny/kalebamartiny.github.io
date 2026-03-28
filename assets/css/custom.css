@@ -15,20 +15,6 @@ img {
   max-width: 900px;
 }
 
-/* Alter the nav buttons */
-.site-nav .page-link {
-  padding: 8px 16px;
-  background: #007acc;
-  color: white !important;
-  border-radius: 6px;
-  text-decoration: none;
-  margin: 0 6px;
-}
-
-.site-nav .page-link:hover {
-  background: #005fa3;
-}
-
 /* Make the navigation bar sticky */
 .site-header {
   position: sticky;
