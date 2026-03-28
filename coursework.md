@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Coursework
+permalink: /coursework/
 ---
 
 ## Courses Completed
