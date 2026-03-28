@@ -1,6 +1,8 @@
 title: "Kaleb Martiny | Aerospace Engineering Portfolio"
 description: "Aerospace engineering projects, coursework, and internship-focused technical portfolio."
 theme: minima
+url: "https://kalebamartiny.github.io"
+baseurl: ""
 
 minima:
   skin: classic
