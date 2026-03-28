@@ -3,8 +3,6 @@ layout: page
 title: Resume
 ---
 
-# Resume
-
 <iframe
   src="{{ '/assets/docs/resume/Kaleb_Martiny_Resume.pdf' | relative_url }}"
   width="100%"
