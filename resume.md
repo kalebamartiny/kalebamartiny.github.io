@@ -14,7 +14,7 @@ permalink: /resume/
 <hr style="border: 1px solid #ccc;" />
 
 <div style="text-align: center; margin-top: 1rem;">
-  <a href="./assets/docs/resume/Kaleb_Martiny_Resume.pdf"
+  <a href="{{ '/assets/docs/resume/Kaleb_Martiny_Resume.pdf' | relative_url }}"
      style="padding: 8px 16px; background:#007acc; color:white; border-radius:6px; text-decoration:none;">
      Download Resume (PDF)
   </a>
