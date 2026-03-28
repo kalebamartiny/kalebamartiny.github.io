@@ -4,8 +4,6 @@ theme: minima
 
 minima:
   skin: classic
-  custom_css:
-    - assets/css/custom.css?v=3
 
 markdown: kramdown
 
