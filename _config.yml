@@ -1,0 +1,13 @@
+title: "Firstname Lastname | Aerospace Engineering Portfolio"
+description: "Aerospace engineering projects, coursework, and internship-focused technical portfolio."
+theme: minima
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+
+header_pages:
+  - projects.md
+  - coursework.md
+  - resume.md
+  - contact.md

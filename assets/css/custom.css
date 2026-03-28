@@ -1,0 +1,16 @@
+:root {
+  --accent: #1f4e79;
+}
+
+.site-title, h1, h2, h3 {
+  color: var(--accent);
+}
+
+img {
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 900px;
+}
