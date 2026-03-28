@@ -1,8 +1,15 @@
 :root {
   --accent: #1f4e79;
+  --nav-bg: #ffffff;
+  --nav-btn-border: #005fa3;
+  --nav-btn-bg: #007acc;
+  --nav-btn-hover: #005fa3;
 }
 
-.site-title, h1, h2, h3 {
+.site-title,
+h1,
+h2,
+h3 {
   color: var(--accent);
 }
 
@@ -15,40 +22,38 @@ img {
   max-width: 900px;
 }
 
-/* Make the navigation bar sticky */
+/* Sticky navigation across all pages */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: white; /* prevents transparency when scrolling */
-  border-bottom: 1px solid #e0e0e0; /* optional subtle divider */
+  background: var(--nav-bg);
+  border-bottom: 1px solid #e0e0e0;
 }
 
-/* Ensure the header stays above content */
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: white;
+/* Ensure page anchors/headings are not hidden by sticky header */
+:target {
+  scroll-margin-top: 90px;
 }
 
-body {
-  margin-top: 0;
-}
-
-/* Stronger selector to override Minima */
+/* Navigation links styled as bordered buttons with hover animation */
 .site-header .site-nav .page-link {
+  display: inline-block;
   padding: 8px 16px;
-  background: #007acc;
-  color: white !important;
-  border-radius: 6px;
-  text-decoration: none;
   margin: 0 6px;
-  border: 2px solid #005fa3;
-  transition: background 0.2s ease, border-color 0.2s ease;
+  color: #ffffff !important;
+  text-decoration: none;
+  background: var(--nav-btn-bg);
+  border: 2px solid var(--nav-btn-border);
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease,
+    border-color 0.2s ease;
 }
 
-.site-header .site-nav .page-link:hover {
-  background: #005fa3;
+.site-header .site-nav .page-link:hover,
+.site-header .site-nav .page-link:focus-visible {
+  background: var(--nav-btn-hover);
   border-color: #004f8a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
