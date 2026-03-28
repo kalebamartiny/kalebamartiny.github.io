@@ -1,9 +1,11 @@
+---
+---
+
+@import "minima";
+
 :root {
   --accent: #1f4e79;
-  --nav-bg: #ffffff;
   --nav-btn-border: #005fa3;
-  --nav-btn-bg: #007acc;
-  --nav-btn-hover: #005fa3;
 }
 
 .site-title,
@@ -13,28 +15,27 @@ h3 {
   color: var(--accent);
 }
 
-img {
-  border-radius: 6px;
-  max-width: 100%;
-}
-
 .wrapper {
   max-width: 900px;
 }
 
-/* Simple nav buttons with clear definition and no animation */
+/* Non-sticky header */
+.site-header {
+  position: static;
+}
+
+/* Simple nav button definition (no animation) */
 .site-header .site-nav .page-link {
   display: inline-block;
   padding: 6px 12px;
   margin: 0 6px;
-  color: var(--accent);
-  text-decoration: none;
-  background: transparent;
   border: 1px solid var(--nav-btn-border);
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .site-header .site-nav .page-link:hover,
 .site-header .site-nav .page-link:focus-visible {
   background: #f2f8fc;
+  text-decoration: none;
 }
