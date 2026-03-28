@@ -1,0 +1,41 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --accent: #1f4e79;
+  --nav-btn-border: #005fa3;
+}
+
+.site-title,
+h1,
+h2,
+h3 {
+  color: var(--accent);
+}
+
+.wrapper {
+  max-width: 900px;
+}
+
+/* Non-sticky header */
+.site-header {
+  position: static;
+}
+
+/* Simple nav button definition (no animation) */
+.site-header .site-nav .page-link {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 0 6px;
+  border: 1px solid var(--nav-btn-border);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.site-header .site-nav .page-link:hover,
+.site-header .site-nav .page-link:focus-visible {
+  background: #f2f8fc;
+  text-decoration: none;
+}
