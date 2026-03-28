@@ -3,13 +3,13 @@ layout: page
 title: Home
 ---
 
-# Firstname Lastname
+# Kaleb Martiny
 Aerospace Engineering Student  
-University Name | Graduation: Month Year
+Illinois Institute of Technology | Graduation: May 2026
 
 I am an aerospace engineering student focused on aerodynamics, structures, and flight dynamics. I build engineering workflows using MATLAB/Python, CAD, and simulation tools, and I am seeking internship opportunities.
 
-[📄 Resume](./resume) | [💼 LinkedIn](https://www.linkedin.com/in/your-link) | [💻 GitHub](https://github.com/your-username)
+[📄 Resume](./resume) | [💼 LinkedIn](https://www.linkedin.com/in/kalebmartiny) | [💻 GitHub](https://github.com/kalebamartiny)
 
 ---
 
@@ -19,6 +19,6 @@ I am an aerospace engineering student focused on aerodynamics, structures, and f
 - [Wing Spar FEA Study](./projects/wing-spar-fea-study)
 
 ## Technical Skills
-- **Programming:** Python, MATLAB
-- **CAD/CAE:** SolidWorks, ANSYS (or your tools)
+- **Programming:** MATLAB
+- **CAD/CAM:** SolidWorks, Fusion 360, OnShape, MasterCAM
 - **Engineering Areas:** Aerodynamics, Structures, Controls
