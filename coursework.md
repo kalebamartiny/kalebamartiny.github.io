@@ -3,9 +3,7 @@ layout: page
 title: Coursework
 ---
 
-# Coursework
-
-## Course Pages
+## Courses Completed
 - [Aircraft Design](./coursework/aircraft-design)
 - [Aerospace Laboratory 2](./coursework/aerospace-laboratory-2)
 - [Aerospace Laboratory 1](./coursework/aerospace-laboratory-1)
