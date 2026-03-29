@@ -212,3 +212,30 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+/* --- HERO BUTTONS (match nav Option B) --- */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 10px 18px;
+  border: 2px solid #007acc;
+  background-color: #ffffff;
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+
+.hero-button:hover {
+  background-color: #007acc;
+  color: #ffffff;
+  border-color: #005fa3;
+}
+
