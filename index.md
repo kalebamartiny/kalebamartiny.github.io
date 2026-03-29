@@ -18,7 +18,7 @@ permalink: /
     <p>Seeking internship opportunities in aerospace engineering.</p>
 
     <div class="hero-buttons">
-    <a class="hero-button" href="/docs/resume/Kaleb_Martiny_resume.pdf">Resume</a>
+    <a class="hero-button" href="/resume">Resume</a>
     <a class="hero-button" href="https://github.com/kalebamartiny" target="_blank">GitHub</a>
     <a class="hero-button" href="https://www.linkedin.com/in/kalebmartiny/" target="_blank">LinkedIn</a>
     <a class="hero-button" href="/contact">Contact</a>
