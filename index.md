@@ -17,15 +17,13 @@ permalink: /
 
     <p>Seeking internship opportunities in aerospace engineering.</p>
 
-    <div class="home-actions">
-      <!-- TODO: Replace with final resume/doc path if needed -->
-      <a class="btn btn--primary" href="./assets/docs/resume/Kaleb_Martiny_Resume.pdf">📄 Resume</a>
-      <!-- TODO: Replace with final GitHub profile URL -->
-      <a class="btn" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <!-- TODO: Replace with final LinkedIn profile URL -->
-      <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">in Linkedin</a>
-      <a class="btn" href="./contact">✉ Contact</a>
-    </div>
+    <div class="hero-buttons">
+    <a class="hero-button" href="/docs/resume/Kaleb_Martiny_resume.pdf">Resume</a>
+    <a class="hero-button" href="https://github.com/kalebamartiny" target="_blank">GitHub</a>
+    <a class="hero-button" href="https://www.linkedin.com/in/kalebmartiny/" target="_blank">LinkedIn</a>
+    <a class="hero-button" href="/contact">Contact</a>
+</div>
+
   </div>
 
   <div class="home-hero__visual">
