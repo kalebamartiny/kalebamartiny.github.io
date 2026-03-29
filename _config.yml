@@ -6,7 +6,7 @@ baseurl: ""
 
 minima:
   skin: classic
-  include:
+  custom_css:
     - assets/css/custom.css
 
 markdown: kramdown
