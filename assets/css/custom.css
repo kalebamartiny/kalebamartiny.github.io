@@ -1,9 +1,16 @@
 :root {
-  --accent: #1f4e79;
-  --nav-bg: #ffffff;
-  --nav-btn-border: #005fa3;
-  --nav-btn-bg: #007acc;
-  --nav-btn-hover: #005fa3;
+  --accent: #1f3c67;
+  --text: #2b3443;
+  --muted: #5c6780;
+  --panel: #eef3fb;
+  --card: #ffffff;
+  --border: #d7dfeb;
+  --button: #2a66c5;
+  --button-hover: #1f56ad;
+}
+
+body {
+  color: var(--text);
 }
 
 .site-title,
@@ -13,37 +20,195 @@ h3 {
   color: var(--accent);
 }
 
-img {
-  border-radius: 6px;
-  max-width: 100%;
-}
-
 .wrapper {
-  max-width: 900px;
+  max-width: 1120px;
 }
 
-/* Keep the top navigation visible while scrolling */
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: var(--nav-bg);
-  border-bottom: 1px solid #e6e6e6;
+  position: static;
+  border-bottom: 1px solid #e8edf4;
 }
 
-/* Simple nav buttons with clear definition and no animation */
 .site-header .site-nav .page-link {
   display: inline-block;
   padding: 6px 12px;
   margin: 0 6px;
+  border: 1px solid transparent;
+  border-radius: 6px;
   color: var(--accent);
   text-decoration: none;
-  background: transparent;
-  border: 1px solid var(--nav-btn-border);
-  border-radius: 4px;
 }
 
 .site-header .site-nav .page-link:hover,
 .site-header .site-nav .page-link:focus-visible {
-  background: #f2f8fc;
+  background: #f3f7fe;
+  border-color: #c7d6ef;
+  text-decoration: none;
+}
+
+.post-content img {
+  border-radius: 10px;
+}
+
+.post-content h1 {
+  margin-bottom: 0.4rem;
+}
+
+.post-content h2 {
+  margin-top: 0;
+}
+
+.home-hero {
+  background: linear-gradient(180deg, #eff4fd 0%, #e7eef9 100%);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.home-hero__meta {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.home-hero__visual img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px dashed #afc0de;
+  background: #f7faff;
+  min-height: 220px;
+  object-fit: cover;
+}
+
+.home-actions {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #c6d2e8;
+  color: var(--accent);
+  background: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  min-width: 140px;
+}
+
+.btn:hover {
+  background: #f7faff;
+  text-decoration: none;
+}
+
+.btn--primary {
+  background: var(--button);
+  border-color: var(--button);
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background: var(--button-hover);
+  color: #fff;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--card);
+}
+
+.project-card img {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  background: #f4f7fd;
+}
+
+.project-card__body {
+  padding: 1rem;
+}
+
+.project-card__body h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+}
+
+.tags {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0.6rem 0 1rem;
+}
+
+.skills-section {
+  background: #f7f9fd;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.4rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.focus-contact {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.quick-links-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.7rem;
+}
+
+.quick-links-card a {
+  border: 1px solid #ced8eb;
+  border-radius: 8px;
+  padding: 0.55rem 0.7rem;
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.quick-links-card a:hover {
+  background: #f7faff;
+}
+
+@media (max-width: 960px) {
+  .home-hero,
+  .project-grid,
+  .skills-grid,
+  .focus-contact {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-links-card {
+    grid-template-columns: 1fr;
+  }
 }
