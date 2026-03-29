@@ -22,10 +22,6 @@ permalink: /
             <span class="icon">📄</span> Resume
         </a>
 
-        <a class="hero-button" href="https://github.com/kalebamartiny" target="_blank">
-            <span class="icon">🐙</span> GitHub
-        </a>
-
         <a class="hero-button" href="https://www.linkedin.com/in/kaleb-martiny/" target="_blank">
             <span class="icon">🔗</span> LinkedIn
         </a>
