@@ -1,3 +1,5 @@
+body { border: 5px solid red !important; }
+
 :root {
   --accent: #1f3c67;
   --text: #2b3443;
