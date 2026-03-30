@@ -23,7 +23,7 @@ permalink: /contact/
 
 <div class="hero-buttons" style="justify-content: flex-start; margin-bottom: 1rem;">
   <button id="copy-email-button" class="hero-button" type="button" data-email="kalebamartiny@gmail.com">
-    <span class="icon">✉️</span> Email
+    <span class="icon">✉️</span> Email : kalebamartiny@gmail.com
   </button>
 
   <a class="hero-button" href="https://www.linkedin.com/in/kaleb-martiny/" target="_blank" rel="noopener noreferrer">
