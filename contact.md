@@ -21,7 +21,44 @@ permalink: /contact/
   </div>
 </div>
 
-- **Email:** kalebamartiny@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/kalebmartiny
+<div class="hero-buttons" style="justify-content: flex-start; margin-bottom: 1rem;">
+  <button id="copy-email-button" class="hero-button" type="button" data-email="kalebamartiny@gmail.com">
+    <span class="icon">✉️</span> Email
+  </button>
 
-I am currently seeking aerospace engineering internship opportunities.
+  <a class="hero-button" href="https://www.linkedin.com/in/kaleb-martiny/" target="_blank" rel="noopener noreferrer">
+    <span class="icon">🔗</span> LinkedIn
+  </a>
+</div>
+
+<p id="copy-email-status" aria-live="polite"></p>
+
+<p>I am currently seeking aerospace engineering internship opportunities.</p>
+
+<script>
+  (function () {
+    var copyButton = document.getElementById('copy-email-button');
+    var status = document.getElementById('copy-email-status');
+
+    if (!copyButton || !status) {
+      return;
+    }
+
+    copyButton.addEventListener('click', function () {
+      var email = copyButton.getAttribute('data-email');
+
+      if (!navigator.clipboard || !email) {
+        status.textContent = 'Unable to copy email automatically. Please copy: ' + email;
+        return;
+      }
+
+      navigator.clipboard.writeText(email)
+        .then(function () {
+          status.textContent = 'Email copied to clipboard: ' + email;
+        })
+        .catch(function () {
+          status.textContent = 'Unable to copy email automatically. Please copy: ' + email;
+        });
+    });
+  })();
+</script>
