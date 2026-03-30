@@ -124,7 +124,7 @@ h3 {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
   gap: 1rem;
 }
 
@@ -204,13 +204,18 @@ h3 {
 
 @media (max-width: 960px) {
   .home-hero,
-  .project-grid,
   .skills-grid,
   .focus-contact {
     grid-template-columns: 1fr;
   }
 
   .quick-links-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .project-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -240,4 +245,3 @@ h3 {
   color: #ffffff;
   border-color: #005fa3;
 }
-
