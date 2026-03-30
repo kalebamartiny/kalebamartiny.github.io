@@ -26,7 +26,7 @@ permalink: /contact/
     <span class="icon">✉️</span> Email : kalebamartiny@gmail.com
   </button>
 
-  <a class="hero-button" href="https://www.linkedin.com/in/kaleb-martiny/" target="_blank" rel="noopener noreferrer">
+  <a class="hero-button" href="https://www.linkedin.com/in/kalebmartiny/" target="_blank" rel="noopener noreferrer">
     <span class="icon">🔗</span> LinkedIn
   </a>
 </div>
