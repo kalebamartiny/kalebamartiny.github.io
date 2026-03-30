@@ -22,7 +22,7 @@ permalink: /
             <span class="icon">📄</span> Resume
         </a>
 
-        <a class="hero-button" href="https://www.linkedin.com/in/kaleb-martiny/" target="_blank">
+        <a class="hero-button" href="https://www.linkedin.com/in/kalebmartiny/" target="_blank">
             <span class="icon">🔗</span> LinkedIn
         </a>
 
