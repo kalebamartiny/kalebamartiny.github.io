@@ -18,7 +18,7 @@ permalink: /
     <p>Seeking internship opportunities in aerospace engineering.</p>
 
     <div class="hero-buttons">
-        <a class="hero-button" href="/assets/resume.pdf">
+        <a class="hero-button" href="/assets/resume">
             <span class="icon">📄</span> Resume
         </a>
 
