@@ -17,7 +17,7 @@ permalink: /coursework/
     <span>Aircraft Design</span>
   </a>
 
-  <a class="course-tile" href="coursework/aerospace-laboratory-2">
+  <a class="course-tile" href="/coursework/aerospace-laboratory-2">
     <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Aerospace Laboratory 2" loading="lazy">
     <span>Aerospace Laboratory 2</span>
   </a>
