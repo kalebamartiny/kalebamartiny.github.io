@@ -7,12 +7,12 @@ permalink: /coursework/
 ## Courses Completed
 
 <div class="course-grid">
-  <a class="course-tile" href="{{ '/coursework/spacecraft-design' }}">
+  <a class="course-tile" href="/coursework/spacecraft-design.md">
     <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Spacecraft Design" loading="lazy">
     <span>Spacecraft Design</span>
   </a>
 
-  <a class="course-tile" href="{{ '/coursework/aircraft-design' }}">
+  <a class="course-tile" href="/coursework/aircraft-design.md">
     <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Aircraft Design" loading="lazy">
     <span>Aircraft Design</span>
   </a>
