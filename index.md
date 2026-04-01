@@ -17,7 +17,7 @@ permalink: /
     <p>Seeking internship opportunities in aerospace engineering.</p>
 
     <div class="hero-buttons">
-        <a class="hero-button" href="/resume.md">
+        <a class="hero-button" href="/resume">
             <span class="icon">📄</span> Resume
         </a>
 
@@ -25,7 +25,7 @@ permalink: /
             <span class="icon">🔗</span> LinkedIn
         </a>
 
-        <a class="hero-button" href="/contact.md">
+        <a class="hero-button" href="/contact">
             <span class="icon">✉️</span> Contact
         </a>
     </div>
