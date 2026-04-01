@@ -5,10 +5,40 @@ permalink: /coursework/
 ---
 
 ## Courses Completed
-- [Aircraft Design](./coursework/aircraft-design)
-- [Aerospace Laboratory 2](./coursework/aerospace-laboratory-2)
-- [Aerospace Laboratory 1](./coursework/aerospace-laboratory-1)
-- [Systems Control and Design](./coursework/systems-control-and-design)
-- [Innovative Design in Engineering](./coursework/innovative-design-in-engineering)
-- [Dynamics](./coursework/dynamics)
-- [Statics](./coursework/statics)
+
+<div class="course-grid">
+  <a class="course-tile" href="{{ '/coursework/aircraft-design/' | relative_url }}">
+    <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Aircraft Design" loading="lazy">
+    <span>Aircraft Design</span>
+  </a>
+
+  <a class="course-tile" href="{{ '/coursework/aerospace-laboratory-2/' | relative_url }}">
+    <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Aerospace Laboratory 2" loading="lazy">
+    <span>Aerospace Laboratory 2</span>
+  </a>
+
+  <a class="course-tile" href="{{ '/coursework/aerospace-laboratory-1/' | relative_url }}">
+    <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Aerospace Laboratory 1" loading="lazy">
+    <span>Aerospace Laboratory 1</span>
+  </a>
+
+  <a class="course-tile" href="{{ '/coursework/systems-control-and-design/' | relative_url }}">
+    <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Systems Control and Design" loading="lazy">
+    <span>Systems Control and Design</span>
+  </a>
+
+  <a class="course-tile" href="{{ '/coursework/innovative-design-in-engineering/' | relative_url }}">
+    <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Innovative Design in Engineering" loading="lazy">
+    <span>Innovative Design in Engineering</span>
+  </a>
+
+  <a class="course-tile" href="{{ '/coursework/dynamics/' | relative_url }}">
+    <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Dynamics" loading="lazy">
+    <span>Dynamics</span>
+  </a>
+
+  <a class="course-tile" href="{{ '/coursework/statics/' | relative_url }}">
+    <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Statics" loading="lazy">
+    <span>Statics</span>
+  </a>
+</div>
