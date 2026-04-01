@@ -3,7 +3,6 @@ layout: page
 title: Home
 permalink: /
 ---
-
 <section class="home-hero">
   <div class="home-hero__content">
     <h1>Kaleb Martiny</h1>
