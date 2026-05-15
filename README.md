@@ -1,4 +1,4 @@
-# Aerospace Engineering Portfolio (GitHub Pages)
+# Aerospace Engineering Portfolio (GitHub Pages) (UNDER DEVELOPMENT)
 
 This repository hosts my internship-focused aerospace engineering portfolio website, including project summaries, coursework artifacts, and resume.
 
