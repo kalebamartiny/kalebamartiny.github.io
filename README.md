@@ -13,3 +13,7 @@ https://kalebamartiny.github.io/
 - `contact.md` — Contact page
 - `projects/` — Detailed project pages
 - `assets/` — Images, PDFs, styling
+
+## License
+
+All written content, images, figures, project descriptions, resume materials, and other personal portfolio content are © Kaleb Martiny. All rights reserved. These materials may not be copied, modified, redistributed, or reused without permission.
