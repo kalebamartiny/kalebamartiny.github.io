@@ -6,7 +6,7 @@ permalink: /contact/
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start; margin-bottom: 1rem;">
   <img
-    src="/assets/images/IMG_0205.JPEG"
+    src="/assets/images/AIAA Headshot.HEIC"
     alt="Description of the photo"
     style="width: 280px; max-width: 100%; height: auto; border-radius: 8px;"
   />
