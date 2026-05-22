@@ -27,6 +27,11 @@ permalink: /coursework/
     <span>Aerospace Laboratory 1</span>
   </a>
 
+<a class="course-tile" href="/coursework/CAD-and-CAM">
+    <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="CAD and CAM" loading="lazy">
+    <span>CAD and CAM</span>
+  </a>
+
   <a class="course-tile" href="/coursework/systems-control-and-design">
     <img src="{{ '/assets/images/Placeholder.jpg' | relative_url }}" alt="Systems Control and Design" loading="lazy">
     <span>Systems Control and Design</span>
