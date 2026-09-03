@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <title>Kaleb Martiny Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell"><header class="topbar"><a class="brand" href="index.html">Kaleb Martiny</a><button class="menu-toggle" type="button" aria-label="Toggle navigation">Menu</button><nav class="nav"><a href="index.html#projects" class="nav-link">Projects</a><a href="index.html#coursework" class="nav-link">Coursework</a><a href="resume.html" class="nav-link">Resume</a><a href="photography.html" class="nav-link">Photography</a></nav></header>
+  <main class="page">
+    <section class="hero home-hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Aerospace Engineering Portfolio</span>
+        <h1>Hi, I&#x27;m Kaleb!</h1>
+        <p class="lede">I am a graduate student at the University of California San Diego pursuing a master’s degree in aerospace engineering. My interests include propulsion, aerodynamics, and additive manufacturing, with a particular focus on applying engineering fundamentals to practical, high performance aerospace systems. Through coursework and hands on projects, I have developed experience in design, analysis, and problem solving across these areas. This portfolio highlights selected work that reflects my technical background, curiosity, and continued growth as an engineer.</p>
+        <div class="hero-actions">
+          <a class="button ghost" href="resume.html">View Resume</a>
+          <a class="button ghost" href="https://www.linkedin.com/in/kalebmartiny/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <button class="button ghost copy-email-button" type="button" data-copy-email="kalebamartiny@gmail.com">kalebamartiny@gmail.com</button>
+        </div>
+      </div>
+      <div class="hero-orbit headshot-frame">
+        <img src="assets/images/aiaa-headshot.jpeg" alt="Kaleb Martiny" class="headshot">
+      </div>
+    </section>
+
+    <section class="skills-carousel" aria-label="Technical skills">
+      <div class="skills-track">
+        <div class="skills-group">
+          <span>Spacecraft propulsion</span><span>Mission architecture</span><span>Aircraft sizing</span><span>Aerodynamic analysis</span><span>Flight simulation</span><span>MATLAB &amp; Simulink</span><span>Feedback control</span><span>Systems integration</span><span>SolidWorks</span><span>Fusion 360</span><span>CAD/CAM</span><span>GD&amp;T</span><span>3D printing</span><span>Experimental aerodynamics</span><span>Data acquisition</span><span>Design verification</span><span>Technical documentation</span><span>Project coordination</span>
+        </div>
+        <div class="skills-group" aria-hidden="true">
+          <span>Spacecraft propulsion</span><span>Mission architecture</span><span>Aircraft sizing</span><span>Aerodynamic analysis</span><span>Flight simulation</span><span>MATLAB &amp; Simulink</span><span>Feedback control</span><span>Systems integration</span><span>SolidWorks</span><span>Fusion 360</span><span>CAD/CAM</span><span>GD&amp;T</span><span>3D printing</span><span>Experimental aerodynamics</span><span>Data acquisition</span><span>Design verification</span><span>Technical documentation</span><span>Project coordination</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-block">
+      <div class="section-heading">
+        <h2>Projects</h2>
+      </div>
+      <div class="card-grid project-grid"><a class="card card-link project-card" href="projects/heimdall.html" aria-label="View HEIMDALL Mission Concept"><figure class="card-preview"><img src="assets/images/projects/heimdall-spacecraft-render.jpg" alt="HEIMDALL spacecraft render"></figure><div class="card-content"><h3>HEIMDALL Mission Concept</h3><p>A Sun-Earth L4 heliophysics observatory and Earth-Mars communications relay designed for the 2026 AIAA Undergraduate Space RFP.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></div></a><a class="card card-link project-card" href="projects/agricultural-aircraft.html" aria-label="View Sky Combine Agricultural Aircraft"><figure class="card-preview"><img src="assets/images/projects/sky-combine-aircraft-render.jpg" alt="Sky Combine agricultural aircraft render"></figure><div class="card-content"><h3>Sky Combine Agricultural Aircraft</h3><p>Team-led agricultural aircraft concept based on AIAA SHOTS design and ferry mission requirements.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></div></a><a class="card card-link project-card" href="projects/desktop-wind-tunnel.html" aria-label="View Desktop Wind Tunnel"><figure class="card-preview"><img src="assets/images/projects/desktop-wind-tunnel-cover.jpg" alt="Desktop wind tunnel assembly"></figure><div class="card-content"><h3>Desktop Wind Tunnel</h3><p>A desktop wind-tunnel build with CAD-to-hardware comparisons.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></div></a><a class="card card-link project-card" href="projects/rocket-avionics-bay.html" aria-label="View Rocket Avionics Bay"><figure class="card-preview"><img src="assets/images/projects/rocket-avionics-bay-render.jpg" alt="Rocket avionics bay CAD render"></figure><div class="card-content"><h3>Rocket Avionics Bay</h3><p>A PLA prototype of a modular avionics bay for Tydirium, a student sounding rocket.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></div></a></div>
+    </section>
+
+    <section id="coursework" class="section-block">
+      <div class="section-heading">
+        <h2>Coursework</h2>
+      </div>
+      <div class="card-grid"><a class="card card-link" href="coursework/spacecraft-design.html" aria-label="View Spacecraft Design"><h3>Spacecraft Design</h3><p>Systems engineering, mission planning, and subsystem design for a requirements-driven spacecraft concept.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></a><a class="card card-link" href="coursework/aircraft-design.html" aria-label="View Aircraft Design"><h3>Aircraft Design</h3><p>Requirements-driven conceptual aircraft design, from configuration through performance and control.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></a><a class="card card-link" href="coursework/systems-control-design.html" aria-label="View Systems Control &amp; Design"><h3>Systems Control &amp; Design</h3><p>Dynamic modeling, stability analysis, and feedback control for an aircraft pitch-control application.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></a><a class="card card-link" href="coursework/aerospace-lab-2.html" aria-label="View Aerospace Laboratory II"><h3>Aerospace Laboratory II</h3><p>Laboratory work in sensing, actuation, system identification, and PID control of a quadcopter arm.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></a><a class="card card-link" href="coursework/aerospace-lab-1.html" aria-label="View Aerospace Laboratory I"><h3>Aerospace Laboratory I</h3><p>Laboratory work in aerodynamic instrumentation, flow measurement, pressure analysis, and heat transfer.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></a><a class="card card-link" href="coursework/cad-cam.html" aria-label="View CAD &amp; CAM"><h3>CAD &amp; CAM</h3><p>CAD, GD&amp;T, FEA, assembly design, and CAM programming for manufacturing.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></a><a class="card card-link" href="coursework/innovative-design.html" aria-label="View Innovative Design in Engineering"><h3>Innovative Design in Engineering</h3><p>Human-centered design, user research, and iterative prototyping for a stair-transport concept.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></a><a class="card card-link" href="coursework/dynamics.html" aria-label="View Dynamics"><h3>Dynamics</h3><p>Kinematics, kinetics, and dynamic-system design applied to a crossbow-style softball launcher.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></a><a class="card card-link" href="coursework/statics.html" aria-label="View Statics"><h3>Statics</h3><p>Engineering mechanics foundations in equilibrium, free-body diagrams, forces, moments, and structural analysis.</p><span class="card-action">View details <span aria-hidden="true">&#8594;</span></span></a></div>
+    </section>
+
+    <section id="hobbies" class="section-block hobbies-section">
+      <div class="section-heading">
+        <h2>Hobbies</h2>
+      </div>
+      <div class="split-block hobby-grid">
+      <a class="copy-card card card-link hobby-card" href="photography.html" aria-label="View Photography">
+        <h2>Photography</h2>
+        <p>A collection of some of the photographs I have taken on my travels across the United States and around the world.</p>
+        <span class="card-action">View Photos <span aria-hidden="true">&#8594;</span></span>
+      </a>
+      <a class="copy-card card card-link hobby-card" href="3d-printing.html" aria-label="View 3D Printing">
+        <h2>3D Printing</h2>
+        <p>Some personal projects I have done for fun and to improve my CAD skills</p>
+        <span class="card-action">View details <span aria-hidden="true">&#8594;</span></span>
+      </a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><p>Kaleb Martiny · Aerospace Engineering</p></footer></div>
+  <script src="script.js"></script>
+</body>
+</html>
